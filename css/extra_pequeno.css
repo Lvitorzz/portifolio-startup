@@ -1,0 +1,62 @@
+/* Estilo navegação */
+body {
+    background-color: #0088a9;
+}
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+.link-navegacao {
+    list-style: none;
+}
+
+.link-navegacao li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.link-navegacao li a{
+    transition: all 0.3s ease 0s;
+}
+
+.link-navegacao li a:hover {
+    color: #0088a9;
+}
+
+.btn-logo {
+    margin-left: 20px;
+    border: 2px solid #FFF;
+    padding: 15px 30px;
+    cursor: pointer; 
+    transition: all 0.3s ease 0s;
+}
+
+
+.btn-contate {
+    margin-left: 20px;
+    padding: 15px 30px;
+    background-color: rgba(255, 152, 0, 1);
+    border: none;
+    cursor: pointer; 
+    transition: all 0.3s ease 0s;
+}
+
+.btn-contate:hover {
+    background-color: rgba(255, 152, 0, 0.8);
+}

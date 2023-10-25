@@ -1,0 +1,100 @@
+/* Estilo navegação */
+body {
+    background-color: #328570;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.5rem 4rem;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+.link-navegacao {
+    list-style: none;
+    display: none;
+}
+
+.link-navegacao li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.link-navegacao li a{
+    transition: all 0.3s ease 0s;
+}
+
+.link-navegacao li a:hover {
+    color: #0088a9;
+}
+
+.btn-logo {
+    margin-left: 20px;
+    border: 2px solid #FFF;
+    padding: 15px 30px;
+    cursor: pointer; 
+    transition: all 0.3s ease 0s;
+}
+
+
+.btn-contate {
+    display: none;
+    margin-left: 20px;
+    padding: 15px 30px;
+    background-color: rgba(255, 152, 0, 1);
+    border: none;
+    cursor: pointer; 
+    transition: all 0.3s ease 0s;
+}
+
+.btn-contate:hover {
+    background-color: rgba(255, 152, 0, 0.8);
+}
+
+.mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.mobile-menu .link-navegacao {
+    display: block;
+    padding-top: 1.2rem;
+}
+
+.mobile-menu .botao-contato {
+    display: block;
+    padding: 1rem 2rem;
+}
+
+.mobile-menu .btn-contate button {
+    width: 100%;
+}
+
+.open {
+    display: block;
+}
+
+
+
+
