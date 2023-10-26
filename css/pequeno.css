@@ -1,63 +1,88 @@
-/* Estilo navegação */
-body {
-    background-color: #bfdf0e;
-}
-
-li, a, button {
-    font-weight: 500;
-    font-size: 16px;
-    color: #f1f1ed;
-    text-decoration: none;
-}
-
 header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
+    background-color: #202020;
 }
 
-.logo {
-    cursor: pointer;
-    margin-right: auto;
-}
-
-
-.link-navegacao {
+li {
     list-style: none;
 }
 
-.link-navegacao li {
-    display: inline-block;
-    padding: 0px 20px;
+a {
+    color: #fff;
+    text-decoration: none;
 }
 
-.link-navegacao li a{
-    transition: all 0.3s ease 0s;
+.navbar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
 }
 
-.link-navegacao li a:hover {
-    color: #0088a9;
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-.btn-logo {
-    margin-left: 20px;
-    border: 2px solid #FFF;
-    padding: 15px 30px;
-    cursor: pointer; 
-    transition: all 0.3s ease 0s;
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
-
-.btn-contate {
-    margin-left: 20px;
-    padding: 15px 30px;
-    background-color: rgba(255, 152, 0, 1);
-    border: none;
-    cursor: pointer; 
-    transition: all 0.3s ease 0s;
+.nav-link {
+    transition: 0.5s ease;
+    font-size: 16px;
 }
 
-.btn-contate:hover {
-    background-color: rgba(255, 152, 0, 0.8);
+.nav-link:hover {
+    color: #e4640f;
+}
+
+.hamburguer{
+    display: block;
+    cursor: pointer;
+}
+
+.hamburguer.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburguer.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburguer.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    border-radius: 0 0 20px 20px;
+    background-color: #202020;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.nav-item{
+    margin: 10px 0;
+}
+
+.nav-menu.active {
+    left: 0;
+}
+
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all o.3s ease-in-out;
 }

@@ -12,35 +12,32 @@
     <link rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1199px)" href="../css/grande.css" href="../css/grande.css">
     <link rel="stylesheet" media="screen and (min-width: 1200px)" href="../css/extra_grande.css" href="../css/extra_grande.css">
 
-    <script src="/js/script.js"></script>
+    <!-- Fonte -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;300;400;500;600;700&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
    <header>
-        <a class="logo" href="#"><button class="btn-logo">ACARAJÉ TECH</button></a>
-        <nav>
-            <ul class="link-navegacao">
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Agencia</a></li>
-                <li><a href="#">Portifolio</a></li>
+        <nav class="navbar">
+            <a href="#" class="logo"><span style="color: #e4640f">ACARAJÉ</span> TECH</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#" class="nav-link contate">Contate-nos</a></li>
             </ul>
+
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
-
-        <a class="botao-contato" href="#"><button class="btn-contate">Contate-nos</button></a>
-
-        <div class="mobile-menu-icon">
-            <button onclick="menuShow()"><img class="icon" src="/img/menu_white_36dp.svg" alt=""></button>
-        </div>
-
-        <div class="mobile-menu">
-            <ul class="link-navegacao">
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Agencia</a></li>
-                <li><a href="#">Portifolio</a></li>
-            </ul>
-
-            <a class="botao-contato" href="#"><button class="btn-contate">Contate-nos</button></a>
-
-        </div>
    </header>
+
+   <script src="/js/script.js"></script>
 </body>
 </html>

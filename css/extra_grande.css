@@ -1,71 +1,66 @@
-/* Estilo navegação */
-body {
-    background-color: #24252A;
-}
-li, a, button {
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
 header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
+    background-color: #202020;
 }
 
-.logo {
-    cursor: pointer;
-    margin-right: auto;
-}
-
-
-.link-navegacao {
+li {
     list-style: none;
 }
 
-.link-navegacao li {
-    display: inline-block;
-    padding: 0px 20px;
+a {
+    color: #fff;
+    text-decoration: none;
 }
 
-.link-navegacao li a{
-    transition: all 0.3s ease 0s;
+.navbar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
 }
 
-.link-navegacao li a:hover {
-    color: #0088a9;
-}
-
-.btn-logo {
-    margin-left: 20px;
-    border: 2px solid #FFF;
-    background-color: #24252A;
-    padding: 15px 30px;
-    cursor: pointer; 
-    transition: all 0.3s ease 0s;
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 
-.btn-contate {
-    margin-left: 20px;
-    padding: 15px 30px;
-    background-color: rgba(255, 152, 0, 1);
-    border: none;
-    cursor: pointer; 
-    transition: all 0.3s ease 0s;
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
-.btn-contate:hover {
-    background-color: rgba(255, 152, 0, 0.8);
+.nav-link {
+    transition: 0.5s ease;
+    font-size: 16px;
 }
 
-.mobile-menu-icon {
+.nav-link:hover {
+    color: #e4640f;
+}
+
+.hamburguer{
     display: none;
+    cursor: pointer;
 }
 
-.mobile-menu {
-    display: none;
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.contate {
+    border: 3px solid #e4640f;
+    padding: 20px;
+}
+
+.contate:hover {
+    background-color: #e4640f;
+    color: #fff;
 }
