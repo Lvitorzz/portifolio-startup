@@ -64,3 +64,51 @@ a {
     background-color: #e4640f;
     color: #fff;
 }
+
+.portifolio-header {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.contato-container{
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.form-container{
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    margin-right: 550px;
+}
+
+.form-container h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form-input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input-group .nome, .email, .celular{
+    height: 40px;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.form-input-group label{
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
