@@ -103,6 +103,7 @@ a {
 
 .section-descricao {
     display: flex;
+    padding-top: 15px;
 }
 
 .nome-descricao {
@@ -116,6 +117,27 @@ a {
 .fotorama {
     display: flex;
     justify-content: center;
+}
+
+.seta-1 {
+    padding-top: 1px;
+    padding-left: 8px;
+}
+
+.nome-descricao-link {
+    cursor: pointer;
+}
+
+.nome-descricao-link:hover {
+    text-decoration: underline;
+}
+
+.seta-indicativo {
+    background-color: #e4640f;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 20%;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-CSS DA PAGINA DE CONTATO=-=-=-=-=-=-=-=-=--=-=-=---=-=--=-=-=-=-=-=--*/
