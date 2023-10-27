@@ -102,7 +102,7 @@ a {
 /*=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-CSS DA PAGINA DE CONTATO=-=-=-=-=-=-=-=-=--=-=-=---=-=--=-=-=-=-=-=--*/
 
 .contato-container{
-    background-color: #e4640f;
+    background-color: #202020;
     height: 650px;
     width: 100%;
     display: flex;
@@ -182,28 +182,18 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
+    transition: transform 0.3s;
 }
 
 .imagem img{
-    height: 500px;
+    height: 530px;
     margin-left: 150px;
-}
-
-.btn-img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-20%, -50%);
-    height: 80px;
-    width: 300px;
-    padding: 10px 20px;
-    background-color: transparent;
-    color: white;
-    border: 2px solid black;
+    transition: transform 0.3s;
     cursor: pointer;
-    display: none;
 }
 
-.imagem-container:hover .btn-img{
-    display: block;
+.imagem img:hover{
+    transform: translateY(-2px);
 }
+
+
