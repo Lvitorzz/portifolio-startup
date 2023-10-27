@@ -91,18 +91,21 @@ a {
 
 .contato-container{
     background-color: #202020;
-    height: 650px;
-    display: block;
-    justify-content: center;
-    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 .form-container{
-    margin: auto;
     background-color: rgb(236, 236, 236);
-    height: 620px;
-    width: 500px;
     border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    order: 1;
+    margin-bottom: 20px;
 }
 
 .form-container h2{
@@ -119,7 +122,7 @@ a {
 
 .form-input-group .nome, .email, .celular{
     height: 40px;
-    width: 450px;
+    width: 310px;
     margin: auto;
     border-radius: 5px;
     border: 1px solid black;
@@ -127,7 +130,7 @@ a {
 }
 
 .form-input-group .mensagem{
-    width: 450px;
+    width: 310px;
     margin: auto;
     border-radius: 5px;
     border: 1px solid black;
@@ -164,22 +167,52 @@ a {
     background-color: rgb(22, 22, 22);
 }
 
-.imagem-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    transition: transform 0.3s;
-    display: none;
+.card-contato{
+    background-color: #202020;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    order: 2;
+    margin-top: 20px;
 }
 
-.imagem img{
-    height: 430px;
-    margin-left: 50px;
-    transition: transform 0.3s;
-    cursor: pointer;
+.card-contato hr{
+    height: 1px;
+    background-color: #e4640f;
+    border: none;
+    margin-top: 20px;
 }
 
-.imagem img:hover{
-    transform: translateY(-2px);
+.card-contato h1{
+    color: #e4640f;
+    font-size: 1em;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.card-contato h2{
+    color: white;
+    font-size: 3.2em;
+}
+
+.card-contato h3{
+    color: white;
+    font-size: 2em;
+}
+
+.contatos{
+    margin-top: 30px;
+}
+
+.contatos h1{
+    font-size: 1.5em;
+    color: white;
+}
+
+.contatos h2{
+    font-size: 1em;
+    color: #e4640f;
 }

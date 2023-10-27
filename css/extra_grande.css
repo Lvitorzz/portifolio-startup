@@ -133,7 +133,7 @@ a {
     background-color: rgb(236, 236, 236);
     height: 620px;
     width: 400px;
-    margin-right: 130px;
+    margin-right: 100px;
     border-radius: 5px;
 }
 
@@ -154,7 +154,7 @@ a {
     width: 350px;
     margin: auto;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid rgb(160, 160, 160);
     padding: 8px;
 }
 
@@ -162,7 +162,7 @@ a {
     width: 350px;
     margin: auto;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid rgb(160, 160, 160);
     padding: 8px;
 }
 
@@ -196,23 +196,50 @@ a {
     background-color: rgb(22, 22, 22);
 }
 
-.imagem-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    transition: transform 0.3s;
+.card-contato{
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 15px;
+    height: 700px;
+    width: 800px;
 }
 
-.imagem img{
-    height: 530px;
-    margin-left: 150px;
-    transition: transform 0.3s;
-    cursor: pointer;
+.card-contato hr{
+    height: 1px;
+    background-color: #e4640f;
+    border: none;
+    margin-top: 20px;
 }
 
-.imagem img:hover{
-    transform: translateY(-2px);
+.card-contato h1{
+    color: #e4640f;
+    font-size: 1em;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.card-contato h2{
+    color: white;
+    font-size: 3.2em;
+}
+
+.card-contato h3{
+    color: white;
+    font-size: 2em;
+}
+
+.contatos{
+    margin-top: 30px;
+}
+
+.contatos h1{
+    font-size: 1.5em;
+    color: white;
+}
+
+.contatos h2{
+    font-size: 1em;
+    color: #e4640f;
 }
 
 
