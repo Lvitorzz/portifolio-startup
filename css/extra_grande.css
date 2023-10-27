@@ -76,6 +76,7 @@ a {
 .principal {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+    margin-top: -3%;
 }
 
 .container-texto-principal {
@@ -132,13 +133,6 @@ a {
     text-decoration: underline;
 }
 
-.seta-indicativo {
-    background-color: #e4640f;
-    width: 100%;
-    display: flex;
-    justify-content: end;
-    margin-top: 20%;
-}
 
 /*=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-CSS DA PAGINA DE CONTATO=-=-=-=-=-=-=-=-=--=-=-=---=-=--=-=-=-=-=-=--*/
 
