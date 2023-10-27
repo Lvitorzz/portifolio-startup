@@ -12,6 +12,13 @@
     <link rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1199px)" href="../css/grande.css" href="../css/grande.css">
     <link rel="stylesheet" media="screen and (min-width: 1200px)" href="../css/extra_grande.css" href="../css/extra_grande.css">
 
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
     <!-- Fonte -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,10 +46,32 @@
    </header>
 
    <section class="principal">
-    <div class="container-texto-principal">
-        <h1 class="texto-principal">Let's create your website together.</h1>
-    </div>
-   </section>
+        <div class="container-texto-principal">
+            <h1 class="texto-principal">Let's create your website together.</h1>
+            <div class="section-descricao">
+                <div class="nome-descricao">
+                    <p>Services</p>
+                    <img src="/img/Arrow 1 (2).svg" alt="">
+                </div>
+                <div class="nome-descricao">portfolio</div>
+                <div class="nome-descricao">Contato</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="fotorama"
+        data-width="60%"
+        data-height="90%"
+        data-ratio="800/600"
+        data-minwidth="400"
+        data-maxwidth="1000"
+        data-minheight="300"
+        data-maxheight="100%"
+        data-autoplay="3000"
+    >
+        <img class="imagem" src="/img/download.jpg">
+        <img class="imagem" src="https://s.fotorama.io/2.jpg">
+      </div>
 
    <script src="/js/script.js"></script>
 </body>
