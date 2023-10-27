@@ -22,7 +22,7 @@
         <nav class="navbar">
             <a href="/pages/index.html" class="logo"><span style="color: #e4640f">ACARAJÉ</span> TECH</a>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
             </ul>
@@ -35,6 +35,12 @@
         </nav>
    </header>
     <section class="contato-container">
+        <div class="imagem-container">
+            <div class="imagem">
+                <img src="../img/sites.png" alt="Tela do Site CineImperial">
+                <button class="btn-img">Ver Portifolio</button>
+            </div>
+        </div>
         <div class="form-container">
             <h2>Fale conosco</h2>
             <form action="#" class="form-input-group">
@@ -44,13 +50,16 @@
                 <input type="email" class="email" placeholder="Digite seu email" required>
                 <label for="celular">Celular</label>
                 <input type="text" class="celular" placeholder="Digite seu numero com DDD" required>
+                <label for="mensagem">Deixe sua mensagem</label>
+                <textarea name="mensagem" class="mensagem" cols="30" rows="5"></textarea>
             </form>
-            <div>
-                <button>
+            <div class="btn-container">
+                <button class="btn-contatar">
                     Enviar contato
                 </button>
             </div>
         </div>
     </section>
+    <script src="/js/script.js"></script>
 </body>
 </html>
