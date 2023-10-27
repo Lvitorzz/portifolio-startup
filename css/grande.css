@@ -68,7 +68,6 @@ a {
 /*=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-CSS DA PAGINA DE CONTATO=-=-=-=-=-=-=-=-=--=-=-=---=-=--=-=-=-=-=-=--*/
 
 .contato-container{
-    background-color: #202020;
     height: 650px;
     display: flex;
     justify-content: end;
@@ -142,21 +141,48 @@ a {
     background-color: rgb(22, 22, 22);
 }
 
-.imagem-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    transition: transform 0.3s;
-}
-
-.imagem img{
-    height: 430px;
+.card-contato{
+    margin-top: 30px;
     margin-left: 50px;
-    transition: transform 0.3s;
-    cursor: pointer;
+    border-radius: 15px;
+    height: 700px;
+    width: 600px;
 }
 
-.imagem img:hover{
-    transform: translateY(-2px);
+.card-contato hr{
+    height: 1px;
+    background-color: #e4640f;
+    border: none;
+    margin-top: 20px;
+}
+
+.card-contato h1{
+    color: #e4640f;
+    font-size: 1em;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.card-contato h2{
+    color: white;
+    font-size: 3.2em;
+}
+
+.card-contato h3{
+    color: white;
+    font-size: 2em;
+}
+
+.contatos{
+    margin-top: 30px;
+}
+
+.contatos h1{
+    font-size: 1.5em;
+    color: white;
+}
+
+.contatos h2{
+    font-size: 1em;
+    color: #e4640f;
 }
