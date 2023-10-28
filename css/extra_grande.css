@@ -213,11 +213,11 @@ a {
 }
 
 .card-contato{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 100px;
     border-radius: 15px;
     height: 700px;
-    width: 800px;
+    width: 700px;
 }
 
 .card-contato hr{
@@ -245,7 +245,7 @@ a {
 }
 
 .contatos{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .contatos h1{
@@ -259,6 +259,7 @@ a {
 }
 
 footer{
+    box-shadow: 0px -1px 10px -1px #000000;
     margin-top: 60px;
     height: 250px;
 }
@@ -279,9 +280,14 @@ footer .infos a:hover{
 
 footer .servicos, .redes, .outros{
     font-size: 1.1em;
-    text-align: center;
+    text-align: start;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 400;
+}
+
+footer .redes i{
+    padding-right: 10px;
 }
 
 footer li{
@@ -300,3 +306,96 @@ footer .direitos{
     margin: auto;
     font-weight: 100;
 }
+
+/*=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-CSS DA PAGINA SOBRE=-=-=-=-=-=-=-=-=--=-=-=---=-=--=-=-=-=-=-=--*/
+
+.sobre-container{
+    width: 100%;
+    display: flex;
+}
+
+.sobre-container .img-sobre {
+    height: 450px;
+    width: 280%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-sobre img {
+    width: 700px;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 50px 0 50px 50px;
+    border: 3px solid #e4640f;
+    box-shadow: 1px 1px 10px #e4640f;
+}
+
+.texto-sobre{
+    margin-top: 25px;
+}
+
+.sobre-container .texto-sobre h1{
+    font-size: 1.3em;
+    text-align: start;
+    color: #e4640f;
+}
+
+.texto-sobre h2{
+    margin-top: 20px;
+    font-size: 1.8em;
+    text-align: start;
+    color: white;
+    width: 500px;
+}
+
+.texto-sobre p{
+    margin-top: 25px;
+    color: white;
+}
+
+.texto-sobre ul{
+    margin-top: 25px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.texto-sobre li{
+    color: #e4640f;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.texto-sobre li:before {
+    content: "\2022";
+    color: #e4640f;
+    position: absolute;
+    left: 0;
+  }
+
+  .container-missao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 20px;
+  }
+
+.container-missao .missao, .valores, .visao{
+    background-color: #e4640f;
+    border: 1px solid black;
+    padding: 20px;
+    margin-right: 10px;
+    width: 400px;
+    border-radius: 50px 0 50px 50px;
+    border: 3px solid black;
+    box-shadow: 1px 10px 10px black;
+    transition: 0.5s ease;
+}
+
+.container-missao .missao:hover, .valores:hover, .visao:hover{
+    transform: translateY(-10px);
+}
+
