@@ -12,12 +12,7 @@
     <link rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1199px)" href="../css/grande.css" href="../css/grande.css">
     <link rel="stylesheet" media="screen and (min-width: 1200px)" href="../css/extra_grande.css" href="../css/extra_grande.css">
 
-    <!-- jQuery 1.8 or later, 33 KB -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-    <!-- Fotorama from CDNJS, 19 KB -->
-    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 
     <!-- Fonte -->
 
@@ -47,14 +42,14 @@
 
    <section class="principal">
         <div class="container-texto-principal">
-            <h1 class="texto-principal">Let's create your website together.</h1>
+            <h1 class="texto-principal">Seu sucesso, nossa inovação.</h1>
             <div class="section-descricao">
                 <div class="nome-descricao">
-                    <a class="nome-descricao-link" href="#">Services</a>
+                    <a class="nome-descricao-link" href="#">Serviços</a>
                     <img class="seta-1" src="/img/Arrow 2.svg" alt="imagem seta">
                 </div>
                 <div class="nome-descricao">
-                    <a class="nome-descricao-link" href="#">Portfolio</a>
+                    <a class="nome-descricao-link" href="#">Portifolio</a>
                     <img class="seta-1" src="/img/Arrow 2.svg" alt="imagem seta">
                 </div>
                 <div class="nome-descricao">
@@ -62,12 +57,122 @@
                     <img class="seta-1" src="/img/Arrow 2.svg" alt="imagem seta">
                 </div>
             </div>
+            <div class="informativo">
+                <div class="informativo-descricao">
+                    <img src="/img/🦆 icon _figma logo_ (1).svg" alt="icone figma">
+                    <p>Projetos Esquematizados</p>
+                </div>
+                <div class="informativo-descricao">
+                    <img src="/img/🦆 icon _Users_ (1).svg" alt="icone equipe">
+                    <p>Equipe Especializada</p>
+                </div>
+                <div class="informativo-descricao">
+                    <img src="/img/🦆 icon _certificate_ (1).svg" alt="icone certificado">
+                    <p>Profissionais Qualificados</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="section-abaixo-carousel">
-        <h2>Contato</h2>
+    <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="/img/acarajeteam.png" alt="foto 1">
+                <img id="slide-2" src="/img/Captura de tela 2023-11-03 173801.png" alt="foto 2">
+                <img id="slide-3" src="/img/download.jpg" alt="foto 3">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
     </section>
-   <script src="/js/script.js"></script>
+
+    <div class="veja-portifolio-container">
+        <div class="veja-portifolio">
+            <a href=""><p>Veja nosso portifólio</p></a>
+            <a href=""><img src="/img/Arrow 4.svg" alt="seta preta"></a>
+        </div>
+    </div>
+
+    <div class="alguns-servicos">
+        <div class="alguns-servicos-div">
+            <p>Alguns dos nossos serviços</p>
+        <hr/>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <img src="/img/🦆 icon _cart_.svg" alt="carrinho">
+            <h2>WebSites</h2>
+            <p>Desenvolvemos sites atraentes e funcionais para sua presença online.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+    
+        <div class="card">
+            <img src="/img/🦆 icon _box_.svg" alt="estoque">
+            <h2>Sistemas Internos</h2>
+            <p>Gerencie seu estoque de forma eficiente e acompanhe seus produtos.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+    
+        <div class="card">
+            <img src="/img/🦆 icon _terminal_.svg" alt="terminal">
+            <h2>Automação</h2>
+            <p> Automatize processos para aumentar a produtividade de sua empresa.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+    </div>
+
+    <div class="message">
+        <p>"Na Acarajé Tech, oferecemos mais do que apenas serviços de tecnologia. Criamos soluções personalizadas, impulsionando o seu sucesso digital em todas as áreas."</p>
+    </div>
+
+    <div class="veja-portifolio-container">
+        <div class="veja-portifolio">
+            <a href=""><p>Contate-nos</p></a>
+            <a href=""><img src="/img/Arrow 4.svg" alt="seta preta"></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="infos" style="background-color: #2a2a2a;">
+            <div class="servicos">
+                <h1>Nossos Serviços</h1>
+                <ul>
+                    <li><a href="#">WebSites</a></li>
+                    <li><a href="#">Sistemas internos</a></li>
+                    <li><a href="#">E-commerce</a></li>
+                    <li><a href="#">Hardware</a></li>
+                </ul>
+            </div>
+            <div class="redes">
+                <h1>Nossas redes sociais</h1>
+                <ul>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                    <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                </ul>
+            </div>
+            <div class="outros">
+                <h1>Outros</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Portifolio</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="direitos">
+            <h6>Copyright © 2023 AcarajeTech. Todos os direitos reservados</h6>
+        </div>
+    </footer>
+    
+    <script src="/js/script.js"></script>
+    <script src="/js/scriptSlider.js"></script>
 </body>
 </html>

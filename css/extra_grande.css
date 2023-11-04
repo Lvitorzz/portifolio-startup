@@ -89,6 +89,7 @@ a {
 }
 
 .texto-principal {
+    padding-top: 13%;
     color: #fff;
     font-size: 4rem;
     font-weight: 400;
@@ -115,22 +116,217 @@ a {
     font-size: 1.2em;
 }
 
-.fotorama {
-    display: flex;
-    justify-content: center;
-}
-
-.seta-1 {
-    padding-top: 1px;
-    padding-left: 8px;
-}
-
 .nome-descricao-link {
     cursor: pointer;
+    padding-right: 10px;
 }
 
 .nome-descricao-link:hover {
     text-decoration: underline;
+}
+
+.informativo {
+    padding-top: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informativo-descricao {
+    text-align: center;
+    display: flex;
+    color: #BEBEBE;
+    font-size: 0.85rem;
+    padding: 0 12px;
+}
+
+.informativo-descricao img{
+    padding-right: 4px;
+}
+
+
+/* SLIDER */
+
+.container {
+    padding: 2rem;
+    padding-bottom: 100px;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0% 0.25);
+    border-radius: 0.5rem;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    max-width: 100%; /* Defina a largura máxima desejada */
+    height: auto; /* Isso manterá a proporção original da imagem */
+}
+
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+/*VEJA NOSSO PORTIFOLIO*/
+
+.veja-portifolio-container{
+    width: 100%;
+    display: flex;
+    background-color: #e4640f;
+    padding: 40px;
+}
+
+.veja-portifolio {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 100px;
+}
+
+.veja-portifolio p{
+    font-size: 50px;
+    padding-top: 10px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.veja-portifolio img {
+    padding-top: 25px;
+    width: 45px;
+}
+
+.veja-portifolio a p:hover {
+    text-decoration: underline;
+}
+
+.alguns-servicos {
+    display: flex;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.alguns-servicos-div {
+    width: 90%;
+    margin: 0 135px;
+}
+
+.alguns-servicos p {
+    font-size: 26px;
+    padding-bottom: 5px;
+    color: #969696;
+}
+
+.alguns-servicos hr {
+    color: #969696; /* Substitua #FF0000 pela cor desejada (neste exemplo, vermelho) */
+    background-color: #969696; /* A cor de fundo do hr, se desejada */
+    height: 2px; /* A altura desejada da linha horizontal */
+    border: none; /* Remove a borda padrão do hr */
+}
+
+
+
+/*cards*/
+
+.cards {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.card {
+    background-color: #2c2c2c;
+    padding: 60px;
+    margin: 10px;
+    width: 400px;
+    text-align: left; /* Alinhe o texto e o ícone à esquerda */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+    font-size: 24px;
+    color: #3498db;
+    margin-bottom: 10px;
+    text-align: left; /* Alinhe o ícone à esquerda */
+}
+
+.card h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: left; /* Alinhe o título à esquerda */
+}
+
+.card p {
+    color: #BEBEBE;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    text-align: left; /* Alinhe a descrição à esquerda */
+}
+
+.card a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: right; /* Alinhe o botão "Saiba mais" à direita */
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.card img{
+    padding-bottom: 10px;
+}
+
+.message {
+    text-align: justify; /* Alinha o texto justificado */
+    padding: 100px 300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    word-wrap: break-word; /* Permite que as palavras quebrem em várias linhas */
+    font-size: 3rem;
 }
 
 
