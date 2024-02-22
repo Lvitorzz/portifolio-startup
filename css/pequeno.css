@@ -36,7 +36,7 @@ a {
 }
 
 .nav-link:hover {
-    color: #e4640f;
+    color: #0de1d3;
 }
 
 .hamburguer{
@@ -181,13 +181,13 @@ a {
 
 .card-contato hr{
     height: 1px;
-    background-color: #e4640f;
+    background-color: #0de1d3;
     border: none;
     margin-top: 20px;
 }
 
 .card-contato h1{
-    color: #e4640f;
+    color: #0de1d3;
     font-size: 1em;
     margin-top: 10px;
     font-weight: 600;
@@ -214,5 +214,5 @@ a {
 
 .contatos h2{
     font-size: 1em;
-    color: #e4640f;
+    color: #0de1d3;
 }

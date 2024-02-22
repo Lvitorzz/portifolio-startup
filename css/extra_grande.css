@@ -37,7 +37,7 @@ a {
 }
 
 .nav-link:hover {
-    color: #e4640f;
+    color: #0de1d3;
 }
 
 .hamburguer{
@@ -56,12 +56,12 @@ a {
 }
 
 .contate {
-    border: 3px solid #e4640f;
+    border: 3px solid #0de1d3;
     padding: 20px;
 }
 
 .contate:hover {
-    background-color: #e4640f;
+    background-color: #0de1d3;
     color: #fff;
 }
 
@@ -206,7 +206,7 @@ a {
 .veja-portifolio-container{
     width: 100%;
     display: flex;
-    background-color: #e4640f;
+    background-color: #0de1d3;
     padding: 40px;
 }
 
@@ -418,13 +418,13 @@ a {
 
 .card-contato hr{
     height: 1px;
-    background-color: #e4640f;
+    background-color: #0de1d3;
     border: none;
     margin-top: 20px;
 }
 
 .card-contato h1{
-    color: #e4640f;
+    color: #0de1d3;
     font-size: 1em;
     margin-top: 10px;
     font-weight: 600;
@@ -451,7 +451,7 @@ a {
 
 .contatos h2{
     font-size: 1em;
-    color: #e4640f;
+    color: #0de1d3;
 }
 
 footer{
@@ -463,7 +463,7 @@ footer{
 footer .infos{
     display: flex;
     justify-content: space-around;
-    background-color: #e4640f;
+    background-color: #0de1d3;
 }
 
 footer .infos a:hover{
@@ -524,8 +524,8 @@ footer .direitos{
     margin: auto;
     margin-top: 35px;
     border-radius: 50px 0 50px 50px;
-    border: 3px solid #e4640f;
-    box-shadow: 1px 1px 10px #e4640f;
+    border: 3px solid #0de1d3;
+    box-shadow: 1px 1px 10px #0de1d3;
 }
 
 .texto-sobre{
@@ -535,7 +535,7 @@ footer .direitos{
 .sobre-container .texto-sobre h1{
     font-size: 1.3em;
     text-align: start;
-    color: #e4640f;
+    color: #0de1d3;
 }
 
 .texto-sobre h2{
@@ -558,7 +558,7 @@ footer .direitos{
 }
 
 .texto-sobre li{
-    color: #e4640f;
+    color: #0de1d3;
     display: inline-block;
     margin-right: 20px;
     position: relative;
@@ -567,7 +567,7 @@ footer .direitos{
 
 .texto-sobre li:before {
     content: "\2022";
-    color: #e4640f;
+    color: #0de1d3;
     position: absolute;
     left: 0;
   }
@@ -580,7 +580,7 @@ footer .direitos{
   }
 
 .container-missao .missao, .valores, .visao{
-    background-color: #e4640f;
+    background-color: #0de1d3;
     border: 1px solid black;
     padding: 20px;
     margin-right: 10px;
