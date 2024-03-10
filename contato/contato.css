@@ -1,0 +1,172 @@
+/*=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-CSS DA PAGINA DE CONTATO=-=-=-=-=-=-=-=-=--=-=-=---=-=--=-=-=-=-=-=--*/
+
+.contato-container{
+    background-color: #202020;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.form-container{
+    margin: auto;
+    background-color: rgb(236, 236, 236);
+    height: 620px;
+    width: 400px;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+.form-container h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form-input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input-group .nome, .email, .celular{
+    height: 40px;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 160, 160);
+    padding: 8px;
+}
+
+.form-input-group .mensagem{
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 160, 160);
+    padding: 8px;
+}
+
+.form-input-group label{
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form-container .btn-contatar{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.form-container .btn-contatar:hover{
+    transform: translateY(-1px);
+    background-color: rgb(22, 22, 22);
+}
+
+.card-contato{
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 15px;
+    height: 700px;
+    width: 700px;
+}
+
+.card-contato hr{
+    height: 1px;
+    background-color: #0de1d3;
+    border: none;
+    margin-top: 20px;
+}
+
+.card-contato h1{
+    color: #0de1d3;
+    font-size: 1em;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.card-contato h2{
+    color: white;
+    font-size: 3.2em;
+}
+
+.card-contato h3{
+    color: white;
+    font-size: 2em;
+}
+
+.contatos{
+    margin-top: 20px;
+}
+
+.contatos h1{
+    font-size: 1.5em;
+    color: white;
+}
+
+.contatos h2{
+    font-size: 1em;
+    color: #0de1d3;
+}
+
+footer{
+    box-shadow: 0px -1px 10px -1px #000000;
+    margin-top: 60px;
+    height: 250px;
+}
+
+footer .infos{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0de1d3;
+}
+
+footer .infos a:hover{
+    text-decoration: underline;
+}
+
+.infos h1{
+    font-size: 1.5em;
+}
+
+footer .servicos, .redes, .outros{
+    font-size: 1.1em;
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+footer .redes i{
+    padding-right: 10px;
+}
+
+footer li{
+    margin-top: 10px;
+}
+
+footer .direitos{
+    color: white;
+    font-size: 1.2em;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.direitos h6{
+    margin: auto;
+    font-weight: 100;
+}
