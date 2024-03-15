@@ -4,39 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quem Somos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="sobre.css">
+    <link rel="stylesheet" href="../css/padrao.css">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;300;400;500;600;700&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="/" class="logo"><span style="color: #0de1d3">Y</span>IPOS</a>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="/sobre" class="nav-link">Sobre</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
-                <li class="nav-item"><a href="/contato" class="nav-link contate">Contate-nos</a></li>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"><span style="color: #0de1d3">Y</span>PIOS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contato">Contate-nos</a>
+              </li>
             </ul>
+          </div>
+        </div>
+      </nav>
 
-            <div class="hamburguer">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-   </header>
    <div class="sobre-container">
         <div class="img-sobre">
             <img src="/img/acarajeteam.png" alt="">
         </div>
         <div class="texto-sobre">
             <h1><i style="color: #0de1d3; font-size: 10px;" class="fas fa-circle"></i> Quem somos </h1>
-            <h2>Vamos te ajudar a modernizar e impulsionar sua empresa</h2>
+            <h2>Vamos te ajudar a <span style="color: #0de1d3">modernizar</span> e <span style="color: #0de1d3">impulsionar</span> sua empresa</h2>
             <p>
                 Fundada em 2023, na cidade de Catu, interior da Bahia, a Ypios é uma empresa de software especializada no desenvolvimento de soluções tecnologicas personalizadas voltadas a pequenos e micro-empreededores regionais com o objetivo de ajudar a impulsionar, mordenizar e facilitar seus negocios.
             </p>
@@ -48,6 +55,7 @@
             </ul>
         </div>
    </div>
+
    <div class="container-missao">
         <div class="missao">
             <h1>Missão</h1>
@@ -98,6 +106,8 @@
     </div>
 </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 </html>

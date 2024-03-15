@@ -62,12 +62,6 @@ a {
     width: 50%;
 }
 
-
-
-
-/*VEJA NOSSO PORTIFOLIO*/
-
-/* General styles for larger screens */
 .veja-portifolio-container {
     margin-top: 50px;
     width: 100%;
@@ -189,6 +183,25 @@ a {
     color: #000000;
     word-wrap: break-word;
     font-size: 3rem;
+}
+
+footer .infos{
+    background-color: #000000;
+    border-top: 2px solid #0de1d3;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.infos a:hover, li:hover{
+    color: #0de1d3;
+}
+
+.direitos{
+    padding: 5px;
+    text-align: center;
+    color: white;
 }
 
 @media only screen and (max-width: 1200px) {
